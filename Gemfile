@@ -17,7 +17,7 @@ gem 'doorkeeper'
 gem 'swagger-blocks'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS)
-gem 'rack-cors'
+gem 'rack-cors', '>= 3.0.0'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
